@@ -5,9 +5,12 @@ BLOQUES is a corpus made up of weblogs. To build the corpus I did NOT use softwa
 ###1. Collect a list of blogs that are of your interest. 
 
 I collected a list of blogs that are written:
--In Spanish
--By speakers of Japanese as a first language who have studied or are studying Spanish as a foreign language
--Without a commercial purpose. They are "personal" blogs about hobbies, culture, opinion, etc.
+
+- In Spanish
+
+- By speakers of Japanese as a first language who have studied or are studying Spanish as a foreign language
+
+- Without a commercial purpose. They are "personal" blogs about hobbies, culture, opinion, etc.
 
 I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is blogs_list.txt
 
