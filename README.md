@@ -145,4 +145,57 @@ textutil -convert txt -inputencoding UTF-8 -encoding UTF-8 *
 
 I also got some error messages, which mean the text file was not created for some reason.
 
-TO BE CONTINUED
+
+###8. Clean the texts
+
+Move empty files to the directory EMPTY.
+
+```
+find . -type f -empty -exec mv {} EMPTY/ \;
+```
+
+Delete repeated lines and paragraphs written entirely in Japanese or English. I used this script.
+
+```
+find . -name '*txt' -exec sed -E -i '.bak' -f sedscr_exclude_mixed.repeated {} \;
+```
+
+Check which are the remaining repeated lines with, and add them to the previous script if it is necessary:
+
+```
+sort corpus_esp.txt|uniq -c |sort -n
+```
+
+### 9. Exclude some texts:
+
+Move the texts with less than 30 words to the directory 0-30WORDS. Later delete the directory.
+
+```
+wc -w *txt | awk '$1<30{print $2}' | xargs -J {} mv {} 0-30WORDS/
+```
+
+I used ngramj to do automatic language detection for every file. For one file, for example:
+
+```
+java -jar cngram.jar -lang2 alalalajaponesa.blogspot.jp-2008-04-vamos-ver-las-flores-de-cerezo-ohanami.txt UTF-8
+```
+
+You get this information: the text is 0,876 Spanish, 0,102 Portuguese...
+
+speed: es:0,876 pt:0,102 ro:0,004 .. bg:0,000 |1,2E-1 |0,0E0 dt=1748
+
+To do this for all the files in the directory at once:
+
+```
+for file in *.txt; do (echo "$file"; java -jar cngram.jar -lang2 $file UTF-8) ; done
+```
+
+I deleted these files:
+
+```
+rm -vfr `cat entradas_otras_lenguas.txt`
+```
+
+The result is 2126 texts and 634767 words.
+
+If anybody knows how to create a script that will do the above procedure in only one step, please contribute!
