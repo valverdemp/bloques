@@ -1,6 +1,6 @@
 # List of commands to create the blog corpus BLOQUES
 
-You can skip step 1 and 2.
+BLOQUES is a corpus made up of weblogs. To build the corpus I did NOT use software like BootCat (with "Custom URLs" option) or TextSTAT because I did not want to extract all the text from every blog post but only the text in the main body (and not the header and the comments section). Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I made available).
 
 ###1. Collect a list of blogs that are of your interest. 
 
