@@ -1,2 +1,3 @@
 # bloques
 List of commands to create the blog corpus BLOQUES
+First, compile a list of blogs...
