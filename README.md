@@ -1,6 +1,8 @@
-# List of commands to create the blog corpus BLOQUES
+# List of commands to create a blog corpus
 
-BLOQUES is a corpus made up of weblogs. To build the corpus I did NOT use software like BootCat (with "Custom URLs" option) or TextSTAT because I did not want to extract all the text from every blog post but only the text in the main body (and not the header and the comments section). Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I made available).
+BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to build the corpus.
+
+I did not use software like BootCat (with "Custom URLs" option) or TextSTAT, which allow you to build a corpus from a list of URLs, because I did not want to extract all the text from the web pages. I was interested only in the text in the main body, written by learners, and not the header and the comments section. Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I make available).
 
 ###1. Collect a list of blogs that are of your interest. 
 
@@ -183,9 +185,11 @@ I used ngramj to do automatic language detection for every file. For one file, f
 java -jar cngram.jar -lang2 alalalajaponesa.blogspot.jp-2008-04-vamos-ver-las-flores-de-cerezo-ohanami.txt UTF-8
 ```
 
-You get this information: the text is 0,876 Spanish, 0,102 Portuguese...
+You get the following information: the text is 0,876 Spanish, 0,102 Portuguese...
 
+```
 speed: es:0,876 pt:0,102 ro:0,004 .. bg:0,000 |1,2E-1 |0,0E0 dt=1748
+```
 
 To do this for all the files in the directory at once:
 
@@ -201,4 +205,4 @@ rm -vfr `cat entradas_otras_lenguas.txt`
 
 The result is 2126 texts and 634767 words.
 
-If anybody knows how to create a script that will do the above procedure in only one step, please contribute!
+If anybody can create a script that will do the above procedure in only one step, please contribute!
