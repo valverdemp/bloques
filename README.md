@@ -12,11 +12,11 @@ I collected a list of blogs that are written:
 
 - Without a commercial purpose. They are "personal" blogs about hobbies, culture, opinion, etc.
 
-I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is blogs_list.txt
+I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is blog_list.txt
 
-###2. Compile a list of URLs (one URL per line), one for every blog post
+###2. Compile a list of URLs (one URL per line), one for every post
 
-For every blog in the previous list, with a link-checker software (I used [Integrity](http://peacockmedia.software/mac/integrity/) for Mac), I made a list of the URLs of every blog and saved the result in a .csv file. 
+For every blog in the previous list, with a link-checker software (I used [Integrity](http://peacockmedia.software/mac/integrity/) for Mac), I made a list of the URLs I was interested in and saved the result in a .csv file. 
 
 Link-checker software gives you the list of all links in a blog, so later I selected only the links to blog posts, by means of some regular expressions, e.g:
 
@@ -33,13 +33,13 @@ awk -F "," '{print $2}' < lqvelqp.wordpress.csv |grep '^"http://lqvelqp.wordpres
 ```
 
 I did this for every blog, and saved each list in a .txt file. 
-Once I had all the lists of blog posts, I concatenated them in one file:
+Once I had all the lists of posts, I concatenated them in one file:
 
 ```
 cat *.txt > url_list.txt
 ```
 
-The result is 2,683 URLs (that later resulted in around 2,000 texts). The list is in posts_list.txt.
+The result is 2,683 URLs (that later resulted in around 2,000 texts). The list is posts_list.txt.
 
 ###3. Download the html files
 
