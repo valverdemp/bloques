@@ -41,7 +41,7 @@ Once I had all the lists of posts, I concatenated them in one file:
 cat *.txt > url_list.txt
 ```
 
-The result is 2,683 URLs (that later resulted in around 2,000 texts). The list is posts_list.txt.
+The result is 2,710 URLs, that you can find in the file posts_list.txt.
 
 ###3. Download the html files
 
