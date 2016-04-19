@@ -132,7 +132,7 @@ This file gave me an "illegal byte sequence"  message, so I deleted it:
 rm tarantos.wordpress.com-2007-10-20-halloween-index.html
 ```
 
-There are also 15 files from which I could not get any text using the previous regular expressions:
+There are 14 files from which I could not get any text using the previous regular expressions:
 
 ```
 ls -l|awk -F ' ' '{print $5, $9}' |grep -c '^0'
