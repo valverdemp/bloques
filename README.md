@@ -14,7 +14,7 @@ I collected a list of blogs that are written:
 
 - Without a commercial purpose. They are "personal" blogs about hobbies, culture, opinion, etc.
 
-I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is [blog_list.txt](bloques/blog_list.txt).
+I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is [blog_list.txt](https://github.com/valverdemp/bloques/blob/master/blog_list.txt).
 
 ###2. Compile a list of URLs (one URL per line), one for every post
 
@@ -41,7 +41,7 @@ Once I had all the lists of posts, I concatenated them in one file:
 cat *.txt > url_list.txt
 ```
 
-The result is 2,709 URLs, that you can find in the file posts_list_2709.txt.
+The result is 2,709 URLs, that you can find in the file [posts_list_2709.txt](https://github.com/valverdemp/bloques/blob/master/posts_list_2709.txt).
 
 ###3. Download the html files
 
