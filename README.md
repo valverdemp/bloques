@@ -77,7 +77,7 @@ So I have all the html files of the corpus in one directory.
 file * | grep -v 'UTF-8'
 ```
 
-I only found one file in ISO-8859-15, so I changed the codification:
+I only found one blog in ISO-8859-15, so I changed the codification of its posts:
 
 ```
 find . -name "pajarito*" -exec sh -c "iconv -f ISO-8859-15 -t UTF-8 {} > {}.utf8"  \; -exec mv "{}".utf8 "{}" \;
