@@ -14,7 +14,7 @@ I collected a list of blogs that are written:
 
 - Without a commercial purpose. They are "personal" blogs about hobbies, culture, opinion, etc.
 
-I used Google and Blogspot search options and found 49 blogs written by 44 learners. The list is [blog_list.txt](https://github.com/valverdemp/bloques/blob/master/blog_list.txt).
+I used Google and Blogspot search options and found 48 blogs written by 43 learners. The list is [blog_list.txt](https://github.com/valverdemp/bloques/blob/master/blog_list.txt).
 
 ###2. Compile a list of URLs (one URL per line), one for every post
 
