@@ -41,7 +41,7 @@ Once I had all the lists of posts, I concatenated them in one file:
 cat *.txt > url_list.txt
 ```
 
-The result is 2,709 URLs, that you can find in the file [posts_list_2709.txt](https://github.com/valverdemp/bloques/blob/master/posts_list_2709.txt).
+The result is 2,701 URLs, that you can find in the file [posts_list_2701.txt](https://github.com/valverdemp/bloques/blob/master/posts_list_2701.txt).
 
 ###3. Download the html files
 
