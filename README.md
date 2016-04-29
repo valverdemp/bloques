@@ -203,6 +203,6 @@ I deleted these files:
 rm -vfr `cat entradas_otras_lenguas.txt`
 ```
 
-The result is 2126 texts and 634767 words.
+The result is 2125 texts and 634516 words.
 
 If anybody can create a script that will do the above procedure in only one step, please contribute!
