@@ -77,7 +77,7 @@ So I have all the html files of the corpus in one directory.
 file * | grep -v 'UTF-8'
 ```
 
-I only found one blog in ISO-8859-15, so I changed the codification of its posts:
+I only found one blog in ISO-8859-15, so I changed the codification with iconv:
 
 ```
 find . -name "pajarito*" -exec sh -c "iconv -f ISO-8859-15 -t UTF-8 {} > {}.utf8"  \; -exec mv "{}".utf8 "{}" \;
@@ -87,7 +87,7 @@ find . -name "pajarito*" -exec sh -c "iconv -f ISO-8859-15 -t UTF-8 {} > {}.utf8
 
 There may be a better and more efficient way of doing this, but...
 
-I made a list of tags that are used only at the beginning of the main body and a list of tags that only appear at the end of the main body, before the comments section.
+I made a list of tags that are used only at the beginning of the main body and a list of tags that appear only at the end of the main body, before the comments section.
 
 Before (the html tags are shown slightly modified, as used later in regular expressions with sed):
 
