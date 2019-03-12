@@ -1,3 +1,6 @@
+UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
+
+
 # List of commands to create a blog corpus
 
 BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to build the corpus.
@@ -205,4 +208,3 @@ rm -vfr `cat entradas_otras_lenguas.txt`
 
 The result is 2125 texts and 634516 words.
 
-If anybody can create a script that will do the above procedure in only one step, please contribute!
