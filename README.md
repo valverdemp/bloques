@@ -4,7 +4,7 @@ BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to b
 
 I did not use software like BootCat (with "Custom URLs" option) or TextSTAT, which allow you to build a corpus from a list of URLs, because I did not want to extract all the text from the web pages. I was interested only in the text in the main body, written by learners, and not the header and the comments section. Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I make available).
 
-###1. Collect a list of blogs that are of your interest. 
+### 1. Collect a list of blogs that are of your interest. 
 
 I collected a list of blogs that are written:
 
@@ -16,7 +16,7 @@ I collected a list of blogs that are written:
 
 I used Google and Blogspot search options and found 46 blogs written by 41 learners. The list is [blog_list.txt](https://github.com/valverdemp/bloques/blob/master/blog_list.txt).
 
-###2. Compile a list of URLs (one URL per line), one for every post
+### 2. Compile a list of URLs (one URL per line), one for every post
 
 For every blog in the previous list, with a link-checker software (I used [Integrity](http://peacockmedia.software/mac/integrity/) for Mac), I made a list of the URLs I was interested in and saved the result in a .csv file. 
 
@@ -43,7 +43,7 @@ cat *.txt > url_list.txt
 
 The result is 2,669 URLs, that you can find in the file [posts_list.txt](https://github.com/valverdemp/bloques/blob/master/posts_list.txt).
 
-###3. Download the html files
+### 3. Download the html files
 
 From the directory where I wanted to save the corpus (I kept the posts_list.txt file in the URLS directory), I did:
 
@@ -151,7 +151,7 @@ textutil -convert txt -inputencoding UTF-8 -encoding UTF-8 *
 I also got some error messages, which mean the text file was not created for some reason.
 
 
-###8. Clean the texts
+### 8. Clean the texts
 
 Move empty files to the directory EMPTY.
 
