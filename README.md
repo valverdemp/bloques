@@ -4,6 +4,9 @@ I created a blog corpus of Spanish texts written by Japanese speakers who are le
 
 [posts_list.txt](https://github.com/valverdemp/bloques/blob/master/posts_list.txt) contains the list of 2,669 URLs of blog posts, mainly from the Blogger and Wordpress domains, as of January 2015.
 
+Here I explain the steps I followed to build the corpus, made up of 2125 texts and 634,516 words. 
+
+I uploaded the resulting corpus to the Sketch Engine for personal use. I cannot distribute it but I can "share" it with you if you are interested. You will not be able to download or modify but you can search it and download word lists, etc. You just have to let me know your username in Sketch Engine.
 
 References:
 
@@ -14,8 +17,6 @@ Valverde, M.P. (2017, to appear), Un corpus de blogs de aprendices japoneses de 
 
 # List of commands to create the blog corpus * UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
 
-
-Here I explain the steps I followed to build the corpus.
 
 I did not use software like BootCat (with "Custom URLs" option) or TextSTAT, which allow you to build a corpus from a list of URLs, because I did not want to extract all the text from the web pages. I was interested only in the text in the main body, written by learners, and not the header and the comments section. Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I make available).
 
