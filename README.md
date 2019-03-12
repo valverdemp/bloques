@@ -14,6 +14,8 @@ Valverde, M.P. (2016), Japanese L1 speakers blogging in Spanish: motivations, to
 
 Valverde, M.P. (2017, to appear), Un corpus de blogs de aprendices japoneses de español (A blog corpus of Japanese learners of Spanish). Actas del XXVIII Congreso Internacional de ASELE.
 
+[![DOI](https://zenodo.org/badge/42561729.svg)](https://zenodo.org/badge/latestdoi/42561729)
+
 
 # List of commands to create the blog corpus * UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
 
