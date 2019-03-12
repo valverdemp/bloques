@@ -4,7 +4,7 @@ BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to b
 
 I did not use software like BootCat (with "Custom URLs" option) or TextSTAT, which allow you to build a corpus from a list of URLs, because I did not want to extract all the text from the web pages. I was interested only in the text in the main body, written by learners, and not the header and the comments section. Therefore, I needed to download first the HTML files and then use the HTML tags to locate and discard the header and comment sections. I followed these steps (you can skip step 1 and 2 if you use the files I make available).
 
-### 1. Collect a list of blogs that are of your interest. 
+### 1. Collect a list of blogs that are of your interest 
 
 I collected a list of blogs that are written:
 
