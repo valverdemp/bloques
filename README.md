@@ -92,7 +92,7 @@ I made a list of tags that are used only at the beginning of the main body and a
 Before (the html tags are shown slightly modified, as used later in regular expressions with sed):
 
 ```
-BLOG TITLE  HTML TAG 
+BLOG TITLE        HTML TAG 
 BLOGSPOT			<h3 class='post-title entry-title'
 WORDPRESS			<div id=\"post-[0-9]+\"
 pajarito			<h[0-9] class=\"entry-title\">
@@ -106,7 +106,7 @@ saborjapon			<div class=\"entry\">
 Between body text and comments:
 
 ```
-BLOG TITLE  HTML TAG 
+BLOG TITLE        HTML TAG 
 BLOGSPOT 		<div class='post-footer'>
 WORDPRESS		<div class=\"wpcnt\">
 kimonoclub		<span class='post-timestamp'>
