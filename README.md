@@ -1,7 +1,7 @@
 UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
 
 
-# List of commands to create a blog corpus
+# List of commands to create the blog corpus
 
 BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to build the corpus.
 
