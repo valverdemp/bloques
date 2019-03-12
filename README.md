@@ -10,8 +10,6 @@ I uploaded the resulting corpus to the Sketch Engine for personal use. I cannot 
 
 References:
 
-<a href="https://zenodo.org/badge/latestdoi/42561729"><img src="https://zenodo.org/badge/42561729.svg" alt="DOI"></a>
-
 Valverde, M.P. (2016), Japanese L1 speakers blogging in Spanish: motivations, topics and linguistic properties. In EPiC Series in Language and Linguistics. 8th International Conference on Corpus Linguistics, EasyChair, vol. 1, pp. 424-437, ISSN 2398-5283.
 
 Valverde, M.P. (2017, to appear), Un corpus de blogs de aprendices japoneses de español (A blog corpus of Japanese learners of Spanish). Actas del XXVIII Congreso Internacional de ASELE.
