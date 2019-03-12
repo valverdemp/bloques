@@ -4,7 +4,7 @@ I created a blog corpus of Spanish texts written by Japanese speakers who are le
 
 [posts_list.txt](https://github.com/valverdemp/bloques/blob/master/posts_list.txt) contains the list of 2,669 URLs of blog posts, mainly from the Blogger and Wordpress domains, as of January 2015.
 
-Here I explain the steps I followed to build the corpus, made up of 2,125 texts and 634,516 words. 
+Here I explain the steps I followed to build the corpus, made up of 2,125 texts and 625,343 words. 
 
 I uploaded the resulting corpus to the Sketch Engine for personal use. I cannot distribute it but I can "share" it with you if you are interested. You will not be able to download or modify but you can search it and download word lists, etc. You just have to let me know your username in Sketch Engine.
 
@@ -223,5 +223,5 @@ I deleted these files:
 rm -vfr `cat entradas_otras_lenguas.txt`
 ```
 
-The result is 2125 texts and 634516 words.
+The result is 2125 texts and 625,343 words.
 
