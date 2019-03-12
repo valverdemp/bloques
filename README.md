@@ -1,7 +1,19 @@
-UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
+I created a blog corpus of Spanish texts written by Japanese speakers who are learning Spanish. 
+
+[blog_list.txt](https://github.com/valverdemp/bloques/blob/master/blog_list.txt) contains a list of 46 blogs written by 41 different learners.
+
+[posts_list.txt](https://github.com/valverdemp/bloques/blob/master/posts_list.txt) contains the list of 2,669 URLs of blog posts, mainly from the Blogger and Wordpress domains, as of January 2015.
 
 
-# List of commands to create the blog corpus
+References:
+
+Valverde, M.P. (2016), Japanese L1 speakers blogging in Spanish: motivations, topics and linguistic properties. In EPiC Series in Language and Linguistics. 8th International Conference on Corpus Linguistics, EasyChair, vol. 1, pp. 424-437, ISSN 2398-5283.
+
+Valverde, M.P. (2017, to appear), Un corpus de blogs de aprendices japoneses de español (A blog corpus of Japanese learners of Spanish). Actas del XXVIII Congreso Internacional de ASELE.
+
+
+# List of commands to create the blog corpus * UPDATE (2019): Nowadays you can compile a blog corpus with web scrapping software like import.io.
+
 
 BLOQUES is a corpus made up of weblogs. Here I explain the steps I followed to build the corpus.
 
